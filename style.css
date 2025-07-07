@@ -1,0 +1,49 @@
+body {
+  font-family: 'Georgia', serif;
+  background-color: #f7f4ef;
+  color: #333;
+  margin: 0;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+h1 {
+  font-size: 2.5em;
+  color: #4a3f35;
+}
+
+.art-card {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  max-width: 900px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.art-card img {
+  width: 100%;
+  max-width: 400px;
+  object-fit: cover;
+}
+
+.details {
+  padding: 20px;
+  flex: 1;
+}
+
+.details h2 {
+  margin-top: 0;
+  color: #3e3027;
+}
+
+.description {
+  margin-top: 15px;
+  line-height: 1.6;
+}
